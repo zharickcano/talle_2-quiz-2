@@ -1,0 +1,80 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body {
+    background: #0f172a;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container {
+    background: #1e293b;
+    width: 350px;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.4);
+    color: white;
+}
+
+#formulario-registro {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+label {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+input, select {
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+}
+
+
+#btn-registrar {
+    margin-top: 20px;
+    padding: 12px;
+    background-color: #113b39;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: .3s ease;
+}
+
+#btn-registrar:hover {
+    background-color: #16a34a;
+
+}
+
+
+#lista-usuarios {
+    margin-top: 20px;
+}
+
+#lista-usuarios p {
+    background: #334155;
+    padding: 10px;
+    border-radius: 6px;
+    margin-top: 8px;
+}
+
